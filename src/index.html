@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Note</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8">
+        <link rel = "stylesheet" href = "css/gradient.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <script src = "https://kit.fontawesome.com/aff9866255.js" crossorigin = "anonymous"></script>
+    </head>
+    <body>
+        <main class = "wrapper">
+            <div class = "container d-flex flex-direction-column">
+                <div class = "inputSection">
+                    <input type = "text" placeholder = "Add a note" id = "input"/></div>
+                    <div class = "noteSection d-flex flex-direction-column" id = "notes">
+                        <div class = "notCompleted">
+                            <div class = "title">
+                                <p>Notes</p>
+                            </div>
+                            <div class = "notes newNotes" id = "newNotes"></div>
+                        </div>
+                        <div class = "Completed">
+                            <div class = "title">
+                                <p>Completed</p>
+                            </div>
+                            <div class = "notes doneNotes" id = "doneNotes"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src = "./js/todo.js"></script>
+    </body>
+</html>

@@ -1,2 +1,2 @@
 # ToDoApp
-Simple ToDoApp made in javascript
+* Simple ToDoApp made in javascript
