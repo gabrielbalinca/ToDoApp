@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Note</title>
+        <title>ToDoApp</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8">
         <link rel = "stylesheet" href = "css/gradient.css">
@@ -12,24 +12,25 @@
         <main class = "wrapper">
             <div class = "container d-flex flex-direction-column">
                 <div class = "inputSection">
-                    <input type = "text" placeholder = "Add a note" id = "input"/></div>
-                    <div class = "noteSection d-flex flex-direction-column" id = "notes">
-                        <div class = "notCompleted">
+                    <input type = "text" placeholder = "Add a task" id = "input"/></div>
+                    <div class = "taskSection d-flex flex-direction-column" id = "tasks">
+                        <div class = "newTasks">
                             <div class = "title">
-                                <p>Notes</p>
+                                <p>New Tasks</p>
                             </div>
-                            <div class = "notes newNotes" id = "newNotes"></div>
+                            <ul class = "tasks newTasks" id = "newTasks">
+                            </ul>
                         </div>
-                        <div class = "Completed">
+                        <div class = "doneTasks">
                             <div class = "title">
-                                <p>Completed</p>
+                                <p>Done tasks</p>
                             </div>
-                            <div class = "notes doneNotes" id = "doneNotes"></div>
+                            <div class = "tasks doneTasks" id = "doneTasks"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <script src = "./js/todo.js"></script>
+        <script src = "./js/app.js"></script>
     </body>
 </html>

@@ -57,34 +57,34 @@ body {
 .inputSection > input::placeholder {
     color: rgba(0, 0, 0, 0.3);
 }
-.noteSection {
+.taskSection {
     margin-top: 3%;
     width: 100%;
     height: 100%;
 }
-.noteInner {
+.taskInner {
     margin-bottom: 5px;
     padding-right: 5px;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.noteInner > .controlsNote {
+.taskInner > .controlsTask {
     margin-left: auto;
 }
-.controlsNote {
+.controlsTask {
     padding-right: 2%;
 }
-.controlsNote > button {
+.controlsTask > button {
     background-color: transparent;
     border: 0;
     margin-right: 10%;
 }
 
-.controlsNote > button > i {
+.controlsTask > button > i {
     width: 100%;
     height: 100%;
 }
 
-.noteInner > div {
+.taskInner > div {
     margin: 5px 5px;
 }
 .title > p {
@@ -95,16 +95,16 @@ body {
     margin-top: 1%;
     margin-left: 3%;
 }
-.checkBoxNoteMenu {
+.checkBoxMenu {
     margin-left: 29px;
 }
-.descriptionNote, .descriptionNote > input {
+.descriptionTask, .descriptionTask > input {
     width: 100%;
 }
-.newNotes > div {
+.newTask > div {
     opacity: 0;
-    transform: opacity 3 s;
+    transform: opacity 3s;
 }
-main{
+main {
     overflow: auto;
 }
